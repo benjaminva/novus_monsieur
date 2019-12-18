@@ -11,13 +11,7 @@ void loop()
   {
     if(Serial.read() == 's')
     {
-      digitalWrite(13,HIGH);
-      delay(2000);
+      digitalWrite(13,digitalRead(13)-HIGH);
     }
   }  
-
-    else
-    {
-      digitalWrite(13,LOW);
-    }
 }
