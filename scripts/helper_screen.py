@@ -1,9 +1,5 @@
-
-from os import listdir
-from os.path import isfile, join
-
-def load_files(mypath):
-    return [f for f in listdir(mypath) if isfile(join(mypath, f))]
+import pygame as pg
+import time
 
 def load_paths(file):
     """
@@ -21,6 +17,22 @@ def load_paths(file):
         dict_paths[words[0]] = words[1:]
     return dict_paths
 
+def show_posters_concept(concept, paths, screen):
+    images = paths[concept]
+    if images:
+        for image in images:
+            img = pg.image.load(image)
+            img = pg.transform.scale(img,( 1920, 1080 ) )
+            screen.blit(img, ( 0, 0 ))
+            pg.display.flip()
+            time.sleep( 1 )
+
+def print_welcome(message, screen, font):
+    text = font.render(message, True,  (255, 255, 255) ,  (0, 0, 0))
+    textRect = text.get_rect()
+    textRect.center = (700, 400)
+    screen.blit(text, textRect)
+
 def save_paths(file, dict_paths):
     f = open(file, "w")
     f.write(dict_paths)
@@ -31,7 +43,7 @@ def load_users(file):
     paths = {}
     for line in lines:
         line = line.strip()
-        
+
         line = line.replace(", ",",Posters/")
         words = line.split(",")
         dict_users[words[0]] = words[1:]
