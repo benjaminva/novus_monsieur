@@ -12,7 +12,7 @@ def main():
 
     paths = hp.load_paths("conceptos.txt")
 
-    users = {"arturo":["redes neuronales", "python"], "benjamin":["redes neuronales"]}
+    users = {"arturo":["redes neuronales", "python", "estadística"], "benjamin":["redes neuronales"]}
     #TODO fun load dict from file
 
     usr = "arturo" #activado por sensor
@@ -42,7 +42,7 @@ def main():
         pg.display.update()
         time.sleep(2)
         for concept in users[usr]:
-            hp.show_posters_concept(concept, paths, screen)
+            hp.show_posters_concept(concept, paths, screen, font)
         pg.quit()
         quit()
 

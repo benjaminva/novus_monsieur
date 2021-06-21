@@ -17,20 +17,27 @@ def load_paths(file):
         dict_paths[words[0]] = words[1:]
     return dict_paths
 
-def show_posters_concept(concept, paths, screen):
+def show_posters_concept(concept, paths, screen, font):
     images = paths[concept]
     if images:
         for image in images:
             img = pg.image.load(image)
             img = pg.transform.scale(img,( 1920, 1080 ) )
             screen.blit(img, ( 0, 0 ))
+            print_concept(concept, screen, font)
             pg.display.flip()
             time.sleep( 1 )
+
+def print_concept(concept, screen, font):
+    text = font.render("concepto : " + concept, True,  (255, 255, 255) ,  (0, 0, 0))
+    textRect = text.get_rect()
+    textRect.topleft = (50, 1045)
+    screen.blit(text, textRect)
 
 def print_welcome(message, screen, font):
     text = font.render(message, True,  (255, 255, 255) ,  (0, 0, 0))
     textRect = text.get_rect()
-    textRect.center = (700, 400)
+    textRect.topleft = (700, 400)
     screen.blit(text, textRect)
 
 def save_paths(file, dict_paths):
