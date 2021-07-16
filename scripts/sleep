@@ -1,0 +1,4 @@
+#!/bin/bash
+# suspend then wake from a bash script
+echo attempting to suspend!
+sudo rtcwake -m mem -u -t $(date +%s -d 'tomorrow 00:00')

@@ -1,0 +1,16 @@
+Check and install for rtcwake and crontab
+
+make sleep executable:
+
+  sudo chmod +x /usr/local/bin/sleepwake 
+
+include with crontab:
+
+  sudo EDITOR=nano crontab -e
+
+add line and customize line at the end:
+
+	13 11 * * *  /home/ng/Desktop/novus_monsieur/scripts/sleep
+
+where:
+	(m)(h) * * * (absolute path to sleep bash script file)
