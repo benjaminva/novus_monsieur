@@ -13,10 +13,10 @@ def get_screen_setup():
         poster_time = 1   # seconds each poster is displayed
         sensors = False
     else :
-        abs_path = "pantalla"
-        poster_dimensions = ( 1920, 1080 )
+        abs_path =  "/home/becario/Desktop/novus_monsieur/scripts/"
+        poster_dimensions = ( 3840, 2160 )
         rectangle_location = (50, 1045)
-        poster_time = 1
+        poster_time = 2
         sensors = False
 
     return (abs_path, poster_dimensions, rectangle_location, poster_time, sensors)
