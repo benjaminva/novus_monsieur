@@ -12,22 +12,23 @@ def get_screen_setup():
         rectangle_location = (50, 1045) # position where the concpet shows
         poster_time = 1   # seconds each poster is displayed
         sensors = False
+        screen = pg.display.set_mode((0,0), pg.FULLSCREEN)
     else :
         abs_path =  "/home/becario/Desktop/novus_monsieur/scripts/"
-        poster_dimensions = ( 3840, 2160 )
-        rectangle_location = (50, 1045)
+        poster_dimensions = (3840, int(2160*.98) )
+        rectangle_location = (50, 2030)
         poster_time = 2
         sensors = False
+        screen = pg.display.set_mode(poster_dimensions)
 
-    return (abs_path, poster_dimensions, rectangle_location, poster_time, sensors)
+    return (abs_path, poster_dimensions, rectangle_location, poster_time, sensors, screen)
 
 
 
 def main():
 
-    abs_path, poster_dimensions, rectangle_location, poster_time, sensors =  get_screen_setup()
+    abs_path, poster_dimensions, rectangle_location, poster_time, sensors, screen =  get_screen_setup()
 
-    screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
     font = pg.font.Font(None, 40)
     done = False
 
