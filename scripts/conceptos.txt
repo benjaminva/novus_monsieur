@@ -1,8 +1,10 @@
-palabra clave, path de poster 1, path de poster 2, path de poster 3
-java, eje_hilos.jpg, eje_minas.png, eje_contaminacion.png, password_cracker.png, randomness.png
-hilos, eje_hilos.jpg, eje_drone.jpg, eje_snake.png, eje_ia.png, eje_gans.jpg
+Ejemplo: palabra clave, path de poster 1, path de poster 2, path de poster 3
+
+hilos, imagefiltering.png
+java, password_cracker.png, randomness.png, imagefiltering.png
+cuda, imagefiltering.png
 estadística, datamining_cfm56.png, diablitos.png, estrabismo.png, medicionRisa.png, randomness.png, lambdaFunc.png, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
-objetos, randomness.png, lambdaFunc.png
+objetos, randomness.png, lambdaFunc.png, minecraftagent.png
 base de datos, datamining_cfm56.png, diablitos.png, powerconsump.png
 sensores, diablitos.png
 python, diablitos.png, estrabismo.png, medicionRisa.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
@@ -12,4 +14,7 @@ hilos, password_cracker.png
 estructura de datos, lambdaFunc.png
 machine learning, medicionRisa.png
 redes neuronales, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png
-procesamiento de señales,  histeresis.png
+procesamiento de señales, histeresis.png
+busquedas informadas, minecraftagent.png
+javascript, minecraftagent.png, frontendautism.png
+frontend, frontendautism.png
