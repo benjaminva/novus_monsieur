@@ -2,6 +2,7 @@ import pygame as pg
 import time
 import sys
 import random
+import os
 import helper_screen as hp
 
 def get_screen_setup():
@@ -25,9 +26,10 @@ def get_screen_setup():
 
 def main():
 
+    os.environ["SDL_VIDEODRIVER"] = "dummy"
     abs_path, poster_dimensions, rectangle_location, poster_time, sensors =  get_screen_setup()
 
-    screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
+    screen = pg.display.set_mode(( 1920, 1080 ))
     font = pg.font.Font(None, 40)
     done = False
 

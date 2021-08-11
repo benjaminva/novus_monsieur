@@ -1,10 +1,13 @@
+
+
 Check and install for rtcwake and crontab
 
+SLEEP part:
 make sleep executable:
 
-  sudo chmod +x /usr/local/bin/sleepwake 
+  sudo chmod +x /usr/local/bin/sleep
 
-include with crontab:
+include with crontab from root user:
 
   sudo EDITOR=nano crontab -e
 
@@ -14,3 +17,19 @@ add line and customize line at the end:
 
 where:
 	(m)(h) * * * (absolute path to sleep bash script file)
+	
+
+WAKE part:
+make sleep executable:
+
+  sudo chmod +x /usr/local/bin/wake 
+
+include with crontab from  LOCAL user (not root):
+
+  EDITOR=nano crontab -e
+
+add line and customize line at the end:
+
+	13 11 * * * export DISPLAY=:0 && /home/ng/Desktop/novus_monsieur/scripts/wake >> /home/ng/Desktop/out.txt 2>&1
+	
+	export gets the a graphic window for pygame.     					2>&1 is used for debugging
