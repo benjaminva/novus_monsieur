@@ -1,20 +1,59 @@
 Ejemplo: palabra clave, path de poster 1, path de poster 2, path de poster 3
 
-hilos, imagefiltering.png
-java, password_cracker.png, randomness.png, imagefiltering.png
-cuda, imagefiltering.png
-estadística, datamining_cfm56.png, diablitos.png, estrabismo.png, medicionRisa.png, randomness.png, lambdaFunc.png, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
-objetos, randomness.png, lambdaFunc.png, minecraftagent.png
-base de datos, datamining_cfm56.png, diablitos.png, powerconsump.png
-sensores, diablitos.png
-python, diablitos.png, estrabismo.png, medicionRisa.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
-algebra lineal, estrabismo.png, medicionRisa.png
-operaciones con matrices, estrabismo.png
-hilos, password_cracker.png
-estructura de datos, lambdaFunc.png
-machine learning, medicionRisa.png
-redes neuronales, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png
-procesamiento de señales, histeresis.png
-busquedas informadas, minecraftagent.png
-javascript, minecraftagent.png, frontendautism.png
-frontend, frontendautism.png
+lenguaje_Python, RedesNNEpilepsiaEEG.png, diablitos.png, estrabismo.png, medicionRisa.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
+lenguaje_C,
+lenguaje_C++,  imagefiltering.png
+lenguaje_Java, password_cracker.png, randomness.png, imagefiltering.png
+lenguaje_Javascript, Poster_OTP.png, Poster_Blockchain.png,  minecraftagent.png, frontendautism.png, autenticacionNarrativa.png
+hilos, autenticacionNarrativa.png, imagefiltering.png, ajedrez_Serious_Games.png, password_cracker.png, ajedrez_Serious_Games.png
+procesamiento_de_señales, histeresis.png, RedesNNEpilepsiaEEG.png
+bases_de_datos, Poster_Blockchain.png, datamining_cfm56.png, diablitos.png, powerconsump.png
+web_frontend, frontendautism.png, ajedrez_Serious_Games.png, autenticacionNarrativa.png
+web_backend, Poster_Blockchain.png
+configuracion_de_servidores,
+redes,
+cifrado,
+patrones_de_diseño,
+procesos_de_calidad,
+estructuras_de_datos,  lambdaFunc.png, PosterAudiojuego.png, PosterJuegoEst.png
+arboles,
+hashes,
+busquedas_informadas, minecraftagent.png, PosterAudiojuego.png
+busquedas_desinformadas,
+pilas, PosterAudiojuego.png
+filas,
+grafos,
+matrices_de_adyancencia,
+objetos, randomness.png, lambdaFunc.png, minecraftagent.png, ajedrez_Serious_Games.png
+polimorfismo, PosterJuegoEst.png
+herencia,
+arquitecturas_de_software,
+arquitecturas_de_hardware,
+algebra_lineal, RedesNNEpilepsiaEEG.png, Poster_OTP.png, coloracionImagenes.png, estrabismo.png, medicionRisa.png, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png
+determinantes,
+inversa_de_matriz,
+operaciones_con_matrices, Poster_OTP.png, estrabismo.png, medicionRisa.png, coloracionImagenes.png
+estatica, PosterJuegoEst.png, datamining_cfm56.png, diablitos.png, estrabismo.png, medicionRisa.png, randomness.png, lambdaFunc.png, histeresis.png, mokeyscnn.png, catdogclassifier.png, musicproject.png, powerconsump.png
+dinamica,
+cirtuitos_electricos,
+electricidad_y_magenetismo,
+microprocesadores,
+sistemas_digitales,
+sistemas_embebidos,
+sensores,  diablitos.png
+actuadores,
+servomotores,
+motores_de_corriente_directa,
+sistemas_operativos,
+linux-ubuntu,
+cinematica_inversa,
+cinematica_directa,
+movilidad,
+Jacobianos,
+robotica_movil,
+SLAM,
+matrices_de_ocupacion,
+procesos_estocasticos,
+controladores_PID,
+control_de_trayectorias,
+
