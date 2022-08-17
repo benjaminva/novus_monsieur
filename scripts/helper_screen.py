@@ -35,7 +35,7 @@ def show_posters_concept(concept, paths, screen, font,
     The rest ar setup values.
     """
 
-    if images:
+    if images =! ['']:
         for image in images:
             if not (image in showed_list):
                 showed_list.append(image)
